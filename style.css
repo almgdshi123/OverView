@@ -157,11 +157,9 @@ ul li a {
 .header {
   margin-bottom: 1rem;
 }
-
 .circle {
   background-color: var(--color-tow);
 }
-
 .text {
   flex-direction: column;
   align-items: flex-start;
@@ -326,7 +324,7 @@ ul li a {
 }
 .table-header,
 .table-row {
-  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr 1fr;
 }
 .market-table .table-header {
   font-size: 14px;
@@ -338,5 +336,6 @@ ul li a {
   display: flex;
   align-items: center;
   text-align: left;
+  flex-wrap: wrap-reverse;
 }
 /* end main-content */
